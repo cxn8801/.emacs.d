@@ -27,6 +27,7 @@
 (set-cursor-color "#ffffff") 
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
 (setq visible-bell 0)
+(load-theme 'deeper-blue )
 
 ;; Setting English Font
 (set-face-attribute
@@ -72,11 +73,10 @@
 (global-set-key (kbd "C-c j")          'godef-jump)
 (global-set-key (kbd "C-c f")          'find-file-in-project)
 (global-set-key (kbd "C-c g")          'cscope-find-global-definition)
-
-(load-theme 'deeper-blue )
+(global-set-key (kbd "C-c v")          'vc-diff)
 
 (setq default-tab-width 4)
-setq-default indent-tabs-mode nil)
+(setq-default indent-tabs-mode nil)
 (setq c-default-style "linux"
       c-basic-offset 4)
 
@@ -104,7 +104,7 @@ setq-default indent-tabs-mode nil)
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (org-link-minor-mode highlight-parentheses projectile disable-mouse elpy highlight-symbol arduino-mode yasnippet xcscope window-numbering undo-tree go-eldoc go-autocomplete flymake-go flycheck find-file-in-project electric-spacing eldoc-eval c-eldoc auto-highlight-symbol ace-jump-mode))))
+    (multiple-cursors magit org-link-minor-mode highlight-parentheses projectile disable-mouse elpy highlight-symbol arduino-mode yasnippet xcscope window-numbering undo-tree go-eldoc go-autocomplete flymake-go flycheck find-file-in-project electric-spacing eldoc-eval c-eldoc auto-highlight-symbol ace-jump-mode))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -112,11 +112,6 @@ setq-default indent-tabs-mode nil)
  ;; If there is more than one, they won't work right.
  )
 
-
-;(require 'tramp)
-;(setq tramp-default-method "plink")
-;(add-to-list 'tramp-default-method-alist
-;            '("192.168.1.103" "\\'root\\'" "su"))
 (setq password-cache-expiry 36000)
 (setq explicit-shell-file-name "/bin/bash")
 
@@ -133,3 +128,7 @@ setq-default indent-tabs-mode nil)
     (highlight-parentheses-mode t)))
 (global-highlight-parentheses-mode t)
 
+(remove-hook 'elpy-modules 'elpy-module-flymake)
+(global-flycheck-mode)
+
+(global-set-key (kbd "C-x g") 'magit-status)

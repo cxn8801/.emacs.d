@@ -112,11 +112,6 @@
  ;; If there is more than one, they won't work right.
  )
 
-
-;(require 'tramp)
-;(setq tramp-default-method "plink")
-;(add-to-list 'tramp-default-method-alist
-;            '("192.168.1.103" "\\'root\\'" "su"))
 (setq password-cache-expiry 36000)
 (setq explicit-shell-file-name "/bin/bash")
 

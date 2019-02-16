@@ -2,6 +2,9 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("c:/Users/Administrator/AppData/Roaming/" . ".emacs.d/")
+ ("f:/tensorflow/2017/" . "examples/")
+ ("f:/tensorflow/" . "2017/")
  ("f:/libevent/" . "WIN32-Code/")
  ("f:/linux/" . "kernel/")
  ("f:/" . "tensorflow/")
@@ -14,6 +17,7 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "c:/Users/Administrator/AppData/Roaming/.emacs.d/"
  "f:/"
  "f:/tensorflow/2017/examples/"
  "f:/jd/"
@@ -35,6 +39,8 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "README.md"
+ "03_linear_regression_sol.py"
  "test.py"
  "test.org"
  "__utils.py"
@@ -43,27 +49,27 @@
  "getopt.c"
  "win32select.c"
  "hello.c"
- "1111.go"
- "gen_init_cpio.c"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("c:/Users/Administrator/AppData/Roaming/.emacs.d/" (23655 22718 0 0) "url/" "tramp" "snippets/" "projectile-bookmarks.eld" "init.el~" "init.el" "ido.last~" "ido.last" "eshell/" "elpa/" "ede-projects.el" "auto-save-list/" "ac-comphist.dat" "../" "./")
+ ("c:/Users/Administrator/AppData/Roaming/" (23655 27606 0 0) "迅雷/" "快压/" "yxqxunyou/" "wps/" "WinRAR/" "vstelemetry/" "VMware/" "Visual Studio Setup/" "url_list.ini" "Tmon/" "thunderx/" "Tencent/" "systray/" "Synapse3/" "Softlink/" "SmartSteamEmu/" "QMProxyAccLsp.log" "QMProxyAccLogObserver.log" "QMLogEx/" "PCmgrFileRecovery/" "Opera Software/" "office6/" "NVIDIA/" "Notepad++/" "Mozilla/" "Microsoft Visual Studio/" "Microsoft/" "Maintenance/" "Macromedia/" "lockhomepage/" "Letasoft/" "LDSGameCenterSpecLog/" "lds/" "Lantern/" "KuGou8/" "KuaiZip/" "kingsoft/" "KGDataBak/" "JetBrains/" "Jedi/" "IsolatedStorage/" "IQIYI Video/" "Google/" "GlobalMgr.db" "EduAppInstall.exe" "channelbk.txt" "byteexec/" "bubble/" "Blizzard/" "BitTorrent/" "BitComet/" "BaiduYunKernel/" "BaiduYunGuanjia/" "baidu/" "Apowersoft/" "AndroidTbox/" "AliWangWang/" "Adobe/" "360se6/" "360Login/" "11Game/" ".history" ".emacs.d/" "../" "./")
+
+ ("c:/Users/Administrator/AppData/Roaming/.emacs.d/" (23655 32740 0 0) "url/" "tramp" "snippets/" "server/" "README.md" "projectile-bookmarks.eld" "init.el~" "init.el" "ido.last~" "ido.last" "eshell/" "elpa/" "ede-projects.el" "auto-save-list/" "ac-comphist.dat" ".git/" "../" "./")
+
+ ("f:/tensorflow/2017/examples/" (23655 22787 0 0) "__pycache__/" "utils.py" "process_data.py" "kernels.py" "graphs/" "deepdream/" "data/" "cgru/" "autoencoder/" "11_char_rnn_gist.py" "09_tfrecord_example.py" "09_queue_example.py" "07_convnet_mnist_starter.py" "07_convnet_mnist.py" "07_basic_filters.py" "05_randomization.py" "05_csv_reader.py" "04_word2vec_visualize.py" "04_word2vec_starter.py" "04_word2vec_no_frills.py" "03_logistic_regression_mnist_starter.py" "03_logistic_regression_mnist_sol.py" "03_linear_regression_starter.py" "03_linear_regression_sol.py~" "03_linear_regression_sol.py" "02_variables.py" "02_simple_tf.py" "02_lazy_loading.py" "02_feed_dict.py" "#03_linear_regression_sol.py#" "../" "./")
+
+ ("f:/tensorflow/2017/" (23243 971 0 0) "setup/" "README.md" "examples/" "data/" "assignments/" "../" "./")
 
  ("f:/tensorflow/" (23243 971 0 0) "setup/" "README.md" "LICENSE" "examples/" "assignments/" "2017/" ".gitignore" "../" "./")
 
  ("f:/tensorflow/examples/" (23655 21327 0 0) "__pycache__/" "word2vec_utils.py" "utils.py" "kernels.py" "graphs/" "data/" "11_char_rnn.py" "07_run_kernels.py" "07_convnet_mnist_starter.py" "07_convnet_mnist.py" "07_convnet_layers.py" "05_variable_sharing.py" "05_randomization.py" "04_word2vec_visualize.py" "04_word2vec_eager_starter.py" "04_word2vec_eager.py" "04_word2vec.py" "04_linreg_eager_starter.py" "04_linreg_eager.py" "03_logreg_starter.py" "03_logreg_placeholder.py" "03_logreg.py" "03_linreg_starter.py" "03_linreg_placeholder.py" "03_linreg_dataset.py~" "03_linreg_dataset.py" "02_variables.py" "02_simple_tf.py" "02_placeholder.py" "02_lazy_loading.py" "../" "./")
-
- ("f:/tensorflow/2017/examples/" (23243 971 0 0) "utils.py" "process_data.py" "kernels.py" "graphs/" "deepdream/" "data/" "cgru/" "autoencoder/" "11_char_rnn_gist.py" "09_tfrecord_example.py" "09_queue_example.py" "07_convnet_mnist_starter.py" "07_convnet_mnist.py" "07_basic_filters.py" "05_randomization.py" "05_csv_reader.py" "04_word2vec_visualize.py" "04_word2vec_starter.py" "04_word2vec_no_frills.py" "03_logistic_regression_mnist_starter.py" "03_logistic_regression_mnist_sol.py" "03_linear_regression_starter.py" "03_linear_regression_sol.py" "02_variables.py" "02_simple_tf.py" "02_lazy_loading.py" "02_feed_dict.py" "../" "./")
 
  ("f:/data/" (23655 20188 0 0) "stanford-tensorflow-tutorials-master.zip" "stanford-tensorflow-tutorials-master/" "fire_theft.xls" "../" "./")
 
  ("f:/jd/" (23619 4050 0 0) "__utils.py" "test.rar" "test.py~" "test.py" "qichacha.py" "../" "./")
 
  ("c:/Users/Administrator/" (23583 40889 0 0) "「开始」菜单/" "Videos/" "Templates/" "source/" "skb.kc" "SendTo/" "Searches/" "Saved Games/" "Recent/" "PycharmProjects/" "PrintHood/" "Pictures/" "OneDrive/" "ntuser.ini" "NTUSER.DAT{0b9eac25-ab5a-11e8-82a3-bf1a01a02cce}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{0b9eac25-ab5a-11e8-82a3-bf1a01a02cce}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{0b9eac25-ab5a-11e8-82a3-bf1a01a02cce}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "MicrosoftEdgeBackups/" "Local Settings/" "Links/" "IntelGraphicsProfiles/" "go/" "Favorites/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Application Data/" "AppData/" "3D Objects/" ".VirtualBox/" ".PyCharmCE2018.2/" ".openshot_qt/" ".minttyrc" ".matplotlib/" ".keras/" ".Icecream Screen Recorder/" ".dotnet/" ".bash_history" ".android/" "../" "./")
-
- ("c:/Users/Administrator/AppData/Roaming/" (23613 50488 0 0) "快压/" "yxqxunyou/" "wps/" "WinRAR/" "vstelemetry/" "VMware/" "Visual Studio Setup/" "url_list.ini" "Tmon/" "Tencent/" "systray/" "Synapse3/" "Softlink/" "SmartSteamEmu/" "QMProxyAccLsp.log" "QMProxyAccLogObserver.log" "QMLogEx/" "Opera Software/" "office6/" "NVIDIA/" "Notepad++/" "Mozilla/" "Microsoft Visual Studio/" "Microsoft/" "Maintenance/" "Macromedia/" "lockhomepage/" "Letasoft/" "LDSGameCenterSpecLog/" "lds/" "Lantern/" "KuGou8/" "KuaiZip/" "kingsoft/" "KGDataBak/" "JetBrains/" "Jedi/" "IsolatedStorage/" "IQIYI Video/" "Google/" "GlobalMgr.db" "EduAppInstall.exe" "channelbk.txt" "byteexec/" "bubble/" "Blizzard/" "BitTorrent/" "BitComet/" "Battle.net/" "BaiduYunKernel/" "BaiduYunGuanjia/" "baidu/" "Apowersoft/" "AndroidTbox/" "AliWangWang/" "Adobe/" "360se6/" "360Login/" "11Game/" ".history" ".emacs.d/" "../" "./")
 
  ("f:/linux/kernel/" (23524 56152 0 0) "workqueue_internal.h" "workqueue.c" "watchdog_hld.c" "watchdog.c" "utsname_sysctl.c" "utsname.c" "user_namespace.c" "user.c" "user-return-notifier.c" "up.c" "umh.c" "uid16.h" "uid16.c" "ucount.c" "tsacct.c" "tracepoint.c" "trace/" "torture.c" "time/" "test_kprobes.c" "task_work.c" "taskstats.c" "sys_ni.c" "sysctl_binary.c" "sysctl.c" "sys.c" "stop_machine.c" "stacktrace.c" "stackleak.c" "softirq.c" "smpboot.h" "smpboot.c" "smp.c" "signal.c" "seccomp.c" "sched/" "rseq.c" "resource.c" "relay.c" "reboot.c" "rcu/" "range.c" "ptrace.c" "profile.c" "printk/" "power/" "pid_namespace.c" "pid.c" "params.c" "panic.c" "padata.c" "nsproxy.c" "notifier.c" "module_signing.c" "module.c" "module-internal.h" "memremap.c" "Makefile" "locking/" "livepatch/" "latencytop.c" "kthread.c" "ksysfs.c" "kprobes.c" "kmod.c" "kexec_internal.h" "kexec_file.c" "kexec_core.c" "kexec.c" "kcov.c" "Kconfig.preempt" "Kconfig.locks" "Kconfig.hz" "Kconfig.freezer" "kcmp.c" "kallsyms.c" "jump_label.c" "irq_work.c" "irq/" "iomem.c" "hung_task.c" "groups.c" "gcov/" "futex_compat.c" "futex.c" "freezer.c" "fork.c" "fail_function.c" "extable.c" "exit.c" "exec_domain.c" "events/" "elfcore.c" "dma.c" "dma/" "delayacct.c" "debug/" "cscope.out" "cred.c" "crash_dump.c" "crash_core.c" "cpu_pm.c" "cpu.c" "context_tracking.c" "configs.c" "configs/" "compat.c" "cgroup/" "capability.c" "bpf/" "bounds.c" "backtracetest.c" "audit_watch.c" "audit_tree.c" "audit_fsnotify.c" "auditsc.c" "auditfilter.c" "audit.h" "audit.c" "async.c" "acct.c" ".gitignore" "#notifier.c#" "../" "./")
 
