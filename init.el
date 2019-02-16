@@ -73,6 +73,7 @@
 (global-set-key (kbd "C-c j")          'godef-jump)
 (global-set-key (kbd "C-c f")          'find-file-in-project)
 (global-set-key (kbd "C-c g")          'cscope-find-global-definition)
+(global-set-key (kbd "C-c v")          'vc-diff)
 
 (setq default-tab-width 4)
 (setq-default indent-tabs-mode nil)

@@ -13,3 +13,5 @@ S stages all files
 alt+x magit-status
 c c 输入commit内容 ctrl+c ctrl+c 提交commit
 magit 快捷键 Pu push
+
+b b 改变当前分支
