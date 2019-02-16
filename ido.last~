@@ -1,0 +1,112 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("f:/libevent/" . "WIN32-Code/")
+ ("f:/linux/" . "kernel/")
+ ("f:/" . "tensorflow/")
+ ("/gdrive:pi@192.168.1.4/" . "pi/")
+ ("e:/" . "script/")
+ ("/home/pi/.emacs.d/" . "elpa/")
+ ("/home/pi/" . "arduino/")
+ ("/home/" . "pi/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "f:/"
+ "f:/tensorflow/2017/examples/"
+ "f:/jd/"
+ "e:/"
+ "e:/script/"
+ "f:/linux/kernel/"
+ "f:/libevent/WIN32-Code/"
+ "f:/libevent/"
+ "f:/test.c/"
+ "f:/linux/usr/"
+ "/plink:pi@192.168.1.104:/home/pi/"
+ "/gdrive:pi@"
+ "c:/Users/Administrator/AppData/Roaming/"
+ "e:/development/"
+ "/home/pi/"
+ "/home/pi/arduino/"
+ "/home/pi/.emacs.d/elpa/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "test.py"
+ "test.org"
+ "__utils.py"
+ "tf.py"
+ "notifier.c"
+ "getopt.c"
+ "win32select.c"
+ "hello.c"
+ "1111.go"
+ "gen_init_cpio.c"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("c:/Users/Administrator/AppData/Roaming/.emacs.d/" (23655 22718 0 0) "url/" "tramp" "snippets/" "projectile-bookmarks.eld" "init.el~" "init.el" "ido.last~" "ido.last" "eshell/" "elpa/" "ede-projects.el" "auto-save-list/" "ac-comphist.dat" "../" "./")
+
+ ("f:/tensorflow/" (23243 971 0 0) "setup/" "README.md" "LICENSE" "examples/" "assignments/" "2017/" ".gitignore" "../" "./")
+
+ ("f:/tensorflow/examples/" (23655 21327 0 0) "__pycache__/" "word2vec_utils.py" "utils.py" "kernels.py" "graphs/" "data/" "11_char_rnn.py" "07_run_kernels.py" "07_convnet_mnist_starter.py" "07_convnet_mnist.py" "07_convnet_layers.py" "05_variable_sharing.py" "05_randomization.py" "04_word2vec_visualize.py" "04_word2vec_eager_starter.py" "04_word2vec_eager.py" "04_word2vec.py" "04_linreg_eager_starter.py" "04_linreg_eager.py" "03_logreg_starter.py" "03_logreg_placeholder.py" "03_logreg.py" "03_linreg_starter.py" "03_linreg_placeholder.py" "03_linreg_dataset.py~" "03_linreg_dataset.py" "02_variables.py" "02_simple_tf.py" "02_placeholder.py" "02_lazy_loading.py" "../" "./")
+
+ ("f:/tensorflow/2017/examples/" (23243 971 0 0) "utils.py" "process_data.py" "kernels.py" "graphs/" "deepdream/" "data/" "cgru/" "autoencoder/" "11_char_rnn_gist.py" "09_tfrecord_example.py" "09_queue_example.py" "07_convnet_mnist_starter.py" "07_convnet_mnist.py" "07_basic_filters.py" "05_randomization.py" "05_csv_reader.py" "04_word2vec_visualize.py" "04_word2vec_starter.py" "04_word2vec_no_frills.py" "03_logistic_regression_mnist_starter.py" "03_logistic_regression_mnist_sol.py" "03_linear_regression_starter.py" "03_linear_regression_sol.py" "02_variables.py" "02_simple_tf.py" "02_lazy_loading.py" "02_feed_dict.py" "../" "./")
+
+ ("f:/data/" (23655 20188 0 0) "stanford-tensorflow-tutorials-master.zip" "stanford-tensorflow-tutorials-master/" "fire_theft.xls" "../" "./")
+
+ ("f:/jd/" (23619 4050 0 0) "__utils.py" "test.rar" "test.py~" "test.py" "qichacha.py" "../" "./")
+
+ ("c:/Users/Administrator/" (23583 40889 0 0) "「开始」菜单/" "Videos/" "Templates/" "source/" "skb.kc" "SendTo/" "Searches/" "Saved Games/" "Recent/" "PycharmProjects/" "PrintHood/" "Pictures/" "OneDrive/" "ntuser.ini" "NTUSER.DAT{0b9eac25-ab5a-11e8-82a3-bf1a01a02cce}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{0b9eac25-ab5a-11e8-82a3-bf1a01a02cce}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{0b9eac25-ab5a-11e8-82a3-bf1a01a02cce}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "MicrosoftEdgeBackups/" "Local Settings/" "Links/" "IntelGraphicsProfiles/" "go/" "Favorites/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Application Data/" "AppData/" "3D Objects/" ".VirtualBox/" ".PyCharmCE2018.2/" ".openshot_qt/" ".minttyrc" ".matplotlib/" ".keras/" ".Icecream Screen Recorder/" ".dotnet/" ".bash_history" ".android/" "../" "./")
+
+ ("c:/Users/Administrator/AppData/Roaming/" (23613 50488 0 0) "快压/" "yxqxunyou/" "wps/" "WinRAR/" "vstelemetry/" "VMware/" "Visual Studio Setup/" "url_list.ini" "Tmon/" "Tencent/" "systray/" "Synapse3/" "Softlink/" "SmartSteamEmu/" "QMProxyAccLsp.log" "QMProxyAccLogObserver.log" "QMLogEx/" "Opera Software/" "office6/" "NVIDIA/" "Notepad++/" "Mozilla/" "Microsoft Visual Studio/" "Microsoft/" "Maintenance/" "Macromedia/" "lockhomepage/" "Letasoft/" "LDSGameCenterSpecLog/" "lds/" "Lantern/" "KuGou8/" "KuaiZip/" "kingsoft/" "KGDataBak/" "JetBrains/" "Jedi/" "IsolatedStorage/" "IQIYI Video/" "Google/" "GlobalMgr.db" "EduAppInstall.exe" "channelbk.txt" "byteexec/" "bubble/" "Blizzard/" "BitTorrent/" "BitComet/" "Battle.net/" "BaiduYunKernel/" "BaiduYunGuanjia/" "baidu/" "Apowersoft/" "AndroidTbox/" "AliWangWang/" "Adobe/" "360se6/" "360Login/" "11Game/" ".history" ".emacs.d/" "../" "./")
+
+ ("f:/linux/kernel/" (23524 56152 0 0) "workqueue_internal.h" "workqueue.c" "watchdog_hld.c" "watchdog.c" "utsname_sysctl.c" "utsname.c" "user_namespace.c" "user.c" "user-return-notifier.c" "up.c" "umh.c" "uid16.h" "uid16.c" "ucount.c" "tsacct.c" "tracepoint.c" "trace/" "torture.c" "time/" "test_kprobes.c" "task_work.c" "taskstats.c" "sys_ni.c" "sysctl_binary.c" "sysctl.c" "sys.c" "stop_machine.c" "stacktrace.c" "stackleak.c" "softirq.c" "smpboot.h" "smpboot.c" "smp.c" "signal.c" "seccomp.c" "sched/" "rseq.c" "resource.c" "relay.c" "reboot.c" "rcu/" "range.c" "ptrace.c" "profile.c" "printk/" "power/" "pid_namespace.c" "pid.c" "params.c" "panic.c" "padata.c" "nsproxy.c" "notifier.c" "module_signing.c" "module.c" "module-internal.h" "memremap.c" "Makefile" "locking/" "livepatch/" "latencytop.c" "kthread.c" "ksysfs.c" "kprobes.c" "kmod.c" "kexec_internal.h" "kexec_file.c" "kexec_core.c" "kexec.c" "kcov.c" "Kconfig.preempt" "Kconfig.locks" "Kconfig.hz" "Kconfig.freezer" "kcmp.c" "kallsyms.c" "jump_label.c" "irq_work.c" "irq/" "iomem.c" "hung_task.c" "groups.c" "gcov/" "futex_compat.c" "futex.c" "freezer.c" "fork.c" "fail_function.c" "extable.c" "exit.c" "exec_domain.c" "events/" "elfcore.c" "dma.c" "dma/" "delayacct.c" "debug/" "cscope.out" "cred.c" "crash_dump.c" "crash_core.c" "cpu_pm.c" "cpu.c" "context_tracking.c" "configs.c" "configs/" "compat.c" "cgroup/" "capability.c" "bpf/" "bounds.c" "backtracetest.c" "audit_watch.c" "audit_tree.c" "audit_fsnotify.c" "auditsc.c" "auditfilter.c" "audit.h" "audit.c" "async.c" "acct.c" ".gitignore" "#notifier.c#" "../" "./")
+
+ ("e:/script/" (23579 41292 0 0) "test.py~" "test.py" "../" "./")
+
+ ("f:/libevent/WIN32-Code/" (23522 38058 0 0) "tree.h" "nmake/" "getopt_long.c" "getopt.h" "getopt.c" "../" "./")
+
+ ("f:/libevent/" (23522 38589 0 0) "win32select.c" "WIN32-Code/" "whatsnew-2.2.txt" "whatsnew-2.1.txt" "whatsnew-2.0.txt" "Vagrantfile" "util-internal.h" "time-internal.h" "test/" "strlcpy.c" "strlcpy-internal.h" "signal.c" "select.c" "sample/" "README.md" "ratelim-internal.h" "poll.c" "openssl-compat.h" "mm-internal.h" "minheap-internal.h" "make_epoll_table.py" "Makefile.nmake" "Makefile.am" "make-event-config.sed" "m4/" "log.c" "log-internal.h" "listener.c" "LICENSE" "libevent_pthreads.pc.in" "libevent_openssl.pc.in" "libevent_extra.pc.in" "libevent_core.pc.in" "libevent.pc.in" "kqueue.c" "kqueue-internal.h" "ipv6-internal.h" "iocp-internal.h" "include/" "http.c" "http-internal.h" "ht-internal.h" "evutil_time.c" "evutil_rand.c" "evutil.c" "evthread_win32.c" "evthread_pthread.c" "evthread.c" "evthread-internal.h" "evsignal-internal.h" "evrpc.c" "evrpc-internal.h" "evport.c" "evmap.c" "evmap-internal.h" "event_tagging.c" "event_rpcgen.py" "event_iocp.c" "event.c" "event.3" "event-internal.h" "event-config.h.cmake" "evdns.c" "evdns.3" "evconfig-private.h.in" "evconfig-private.h.cmake" "evbuffer-internal.h" "epoll_sub.c" "epolltable-internal.h" "epoll.c" "Doxyfile" "devpoll.c" "defer-internal.h" "cscope.out" "CONTRIBUTING.md" "configure.ac" "compat/" "CMakeLists.txt" "cmake/" "checkpatch.sh" "ChangeLog-2.0" "ChangeLog-1.4" "ChangeLog" "changelist-internal.h" "buffer_iocp.c" "bufferevent_sock.c" "bufferevent_ratelim.c" "bufferevent_pair.c" "bufferevent_openssl.c" "bufferevent_filter.c" "bufferevent_async.c" "bufferevent.c" "bufferevent-internal.h" "buffer.c" "autogen.sh" "arc4random.c" "appveyor.yml" ".uncrustify" ".travis.yml" ".gitignore" ".git/" ".clang-format" "../" "./")
+
+ ("f:/test.c/" (23524 11258 0 0) "../" "./")
+
+ ("f:/linux/usr/" (23524 10147 0 0) "Makefile" "Kconfig" "initramfs_data.S" "gen_init_cpio.c" "gen_initramfs_list.sh" ".gitignore" "../" "./")
+
+ ("f:/linux/" (23522 36956 0 0) "virt/" "usr/" "tools/" "sound/" "security/" "scripts/" "samples/" "README" "net/" "mm/" "Makefile" "MAINTAINERS" "LICENSES/" "lib/" "kernel/" "Kconfig" "Kbuild" "ipc/" "init/" "include/" "fs/" "firmware/" "drivers/" "Documentation/" "crypto/" "CREDITS" "COPYING" "certs/" "block/" "arch/" ".mailmap" ".gitignore" ".gitattributes" ".git/" ".get_maintainer.ignore" ".cocciconfig" ".clang-format" "../" "./")
+
+ ("d:/emacs-26.1-x86_64/bin/" (23495 982 0 0) "zlib1.dll" "xzmore" "xzless" "xzgrep" "xzfgrep" "xzegrep" "xzdiff" "xzdec.exe" "xzcmp" "xzcat.exe" "xz.exe" "xmlwf.exe" "xmllint.exe" "xmlcatalog.exe" "xml2-config" "xgettext.exe" "x86_64-w64-mingw32-tset.exe" "x86_64-w64-mingw32-tput.exe" "x86_64-w64-mingw32-toe.exe" "x86_64-w64-mingw32-tic.exe" "x86_64-w64-mingw32-tabs.exe" "x86_64-w64-mingw32-reset.exe" "x86_64-w64-mingw32-infotocap.exe" "x86_64-w64-mingw32-infocmp.exe" "x86_64-w64-mingw32-clear.exe" "x86_64-w64-mingw32-captoinfo.exe" "x86_64-w64-mingw32-agrep.exe" "wrjpgcom.exe" "wish86.exe" "wish.exe" "update-ca-trust" "unxz.exe" "trust.exe" "transicc.exe" "tk86.dll" "tjbench.exe" "tificc.exe" "tiffsplit.exe" "tiffset.exe" "tiffmedian.exe" "tiffinfo.exe" "tiffdump.exe" "tiffdither.exe" "tiffcrop.exe" "tiffcp.exe" "tiffcmp.exe" "tiff2rgba.exe" "tiff2ps.exe" "tiff2pdf.exe" "tiff2bw.exe" "tclsh86.exe" "tclsh.exe" "tcl86.dll" "ssleay32.dll" "srptool.exe" "sqlite3_analyzer.sh" "sexp-conv.exe" "runemacs.exe" "rsvg-view-3.exe" "rsvg-convert.exe" "recode-sr-latin.exe" "rdjpgcom.exe" "raw2tiff.exe" "python2w.exe" "python2.exe" "python2.7.exe" "python2.7-config" "python2-config" "python.exe" "python-config.sh" "python-config-u.sh" "python-config" "pydoc" "psktool.exe" "psicc.exe" "ppm2tiff.exe" "pngfix.exe" "png-fix-itxt.exe" "pkcs1-conv.exe" "pcretest.exe" "pcregrep.exe" "pcre-config" "pango-view.exe" "pal2rgb.exe" "p11tool.exe" "p11-kit.exe" "openssl.exe" "ocsptool.exe" "ngettext.exe" "nettle-pbkdf2.exe" "nettle-lfib-stream.exe" "nettle-hash.exe" "ncursesw6-config" "msguniq.exe" "msgunfmt.exe" "msgmerge.exe" "msginit.exe" "msggrep.exe" "msgfmt.exe" "msgfilter.exe" "msgexec.exe" "msgen.exe" "msgconv.exe" "msgcomm.exe" "msgcmp.exe" "msgcat.exe" "msgattrib.exe" "minizip.exe" "miniunzip.exe" "lzmainfo.exe" "lzmadec.exe" "linkicc.exe" "libXpm-noX4.dll" "libxml2-2.dll" "libwinpthread-1.dll" "libunistring-2.dll" "libturbojpeg-0.dll" "libtre-5.dll" "libtiffxx-5.dll" "libtiff-5.dll" "libtermcap-0.dll" "libtasn1-6.dll" "libsystre-0.dll" "libstdc++-6.dll" "libssp-0.dll" "librsvg-2-2.dll" "libreadline7.dll" "libquadmath-0.dll" "libpython2.7.dll" "libpng16-config" "libpng16-16.dll" "libpng-config" "libpixman-1-0.dll" "libpcreposix-0.dll" "libpcrecpp-0.dll" "libpcre32-0.dll" "libpcre16-0.dll" "libpcre-1.dll" "libpangowin32-1.0-0.dll" "libpangoft2-1.0-0.dll" "libpangocairo-1.0-0.dll" "libpango-1.0-0.dll" "libp11-kit-0.dll" "libnettle-6.dll" "libminizip-1.dll" "liblzo2-2.dll" "liblzma-5.dll" "liblcms2-2.dll" "libjpeg-8.dll" "libjasper-4.dll" "libintl-8.dll" "libidn2-0.dll" "libiconv-2.dll" "libhogweed-4.dll" "libhistory7.dll" "libharfbuzz-icu-0.dll" "libharfbuzz-gobject-0.dll" "libharfbuzz-0.dll" "libgthread-2.0-0.dll" "libgraphite2.dll" "libgomp-1.dll" "libgobject-2.0-0.dll" "libgnutlsxx-28.dll" "libgnutls-30.dll" "libgmpxx-4.dll" "libgmp-10.dll" "libgmodule-2.0-0.dll" "libglib-2.0-0.dll" "libgio-2.0-0.dll" "libgif-7.dll" "libgettextsrc-0-19-8-1.dll" "libgettextpo-0.dll" "libgettextlib-0-19-8-1.dll" "libgdk_pixbuf-2.0-0.dll" "libgdbm-4.dll" "libgcc_s_seh-1.dll" "libfreetype-6.dll" "libfreeglut.dll" "libfontconfig-1.dll" "libffi-6.dll" "libexpat-1.dll" "libeay32.dll" "libcroco-0.6-3.dll" "libcharset-1.dll" "libcairo-script-interpreter-2.dll" "libcairo-gobject-2.dll" "libcairo-2.dll" "libbz2-1.dll" "libatomic-1.dll" "libasprintf-0.dll" "jpgicc.exe" "jpegtran.exe" "jasper.exe" "imginfo.exe" "imgcmp.exe" "idn2.exe" "idle" "hb-view.exe" "hb-shape.exe" "hb-ot-shape-closure.exe" "gspawn-win64-helper.exe" "gspawn-win64-helper-console.exe" "gsettings.exe" "gresource.exe" "gr2fonttest.exe" "gobject-query.exe" "gnutls-serv.exe" "gnutls-cli.exe" "gnutls-cli-debug.exe" "glib-mkenums.exe" "glib-mkenums-script.py" "glib-gettextize" "glib-genmarshal.exe" "glib-genmarshal-script.py" "glib-compile-schemas.exe" "glib-compile-resources.exe" "gio.exe" "gio-querymodules.exe" "gettextize" "gettext.sh" "gettext.exe" "gdk-pixbuf-thumbnailer.exe" "gdk-pixbuf-query-loaders.exe" "gdk-pixbuf-pixdata.exe" "gdk-pixbuf-csource.exe" "gdbus.exe" "gdbus-codegen.exe" "gdbus-codegen-script.py" "gdbm_load.exe" "gdbm_dump.exe" "gdbmtool.exe" "freetype-config" "fc-validate.exe" "fc-scan.exe" "fc-query.exe" "fc-pattern.exe" "fc-match.exe" "fc-list.exe" "fc-cat.exe" "fc-cache.exe" "fax2tiff.exe" "fax2ps.exe" "etags.exe" "envsubst.exe" "emacsclientw.exe" "emacsclient.exe" "emacs.exe" "emacs-26.1.exe" "edit_test_dll.exe" "edit_test.exe" "edit.dll" "ebrowse.exe" "djpeg.exe" "cxpm-noX.exe" "ctags.exe" "csslint-0.6.exe" "croco-0.6-config" "cjpeg.exe" "certtool.exe" "bzmore" "bzless" "bzip2recover.exe" "bzip2.exe" "bzgrep" "bzfgrep" "bzegrep" "bzdiff" "bzcmp" "bzcat.exe" "bunzip2.exe" "autopoint" "asn1Parser.exe" "asn1Decoding.exe" "asn1Coding.exe" "addpm.exe" "2to3" "../" "./")
+
+ ("c:/Users/Administrator/AppData/Roaming/lockhomepage/" (23452 8437 0 0) "LockHomePage.ini" "../" "./")
+
+ ("e:/development/" (23453 59135 0 0) "test.go~" "test.go" "../" "./")
+
+ ("c:/Users/" (23430 17923 0 0) "Public/" "desktop.ini" "Default User/" "Default/" "All Users/" "Administrator/" "../" "./")
+
+ ("c:/Users/Administrator/AppData/" (23430 17923 0 0) "Roaming/" "LocalLow/" "Local/" "../" "./")
+
+ ("d:/emacs-26.1-x86_64/" (23452 29350 0 0) "ssl/" "spacemacs/" "share/" "libexec/" "lib/" "include/" "etc/" "bin/" "../" "./")
+
+ ("/home/pi/" (23396 7181 440459 712000) ".bash_logout" "a.out" "./" ".gnupg/" "src/" ".bashrc" ".viminfo" "serial3.c~" "test.h~" "hello.o" "test.go" "arduino/" "serial.c" "../" "go.go~" "bin/" "temp.c" "udpbrocast" ".bash_history" ".wpa_cli_history" ".arduino/" "hello.c" "#temp.c#" "temp" "hello" "SoftEtherVPN/" "leaf/" ".ssh/" ".profile" "test.c~" "serial" "serial3.c" "serial.c~" "go-serial.go" "cscope.in.out" ".emacs.d/" "test.c" "go-serial.go~" "serial3" "test.o" "#udp.go#" "udpbrocast.c" "test.h" "openvpn/" "Linux-0.11/" "cscope.po.out" "cscope.out" "udp.go" "udp" "hello.c~" "temp.c~" "pkg/" "udpbrocast.c~")
+
+ ("/home/pi/arduino/" (23395 63851 438613 892000) "./" "hello.h~" "test.ino" "hello.cpp" "cscope.files" "Makefile" "../" "test.ino~" "Makefile~" "hello.h" "cscope.in.out" "cscope.po.out" "build-uno/" "cscope.out")
+
+ ("/usr/share/arduino/libraries/Servo/" (23390 53111 169606 949000) "./" "keywords.txt" "../" "examples/" "Servo.h" "Servo.cpp")
+
+ ("/usr/share/arduino/hardware/arduino/cores/arduino/" (23390 53111 159606 995000) "Tone.cpp" "Udp.h" "avr-libc/" "wiring_pulse.c" "./" "wiring.c" "wiring_shift.c" "Platform.h" "HardwareSerial.h" "new.h" "../" "new.cpp" "HardwareSerial.cpp" "WCharacter.h" "Server.h" "Print.h" "IPAddress.h" "wiring_digital.c" "Print.cpp" "Arduino.h" "WString.h" "Client.h" "Printable.h" "USBAPI.h" "main.cpp" "WInterrupts.c" "wiring_private.h" "CDC.cpp" "IPAddress.cpp" "Stream.cpp" "WMath.cpp" "USBDesc.h" "USBCore.cpp" "binary.h" "USBCore.h" "wiring_analog.c" "Stream.h" "HID.cpp" "WString.cpp")
+
+ ("/usr/share/arduino/hardware/arduino/cores/robot/" (23390 53111 159606 995000) "Tone.cpp" "Udp.h" "wiring_pulse.c" "./" "wiring.c" "wiring_shift.c" "Platform.h" "HardwareSerial.h" "new.h" "../" "new.cpp" "HardwareSerial.cpp" "WCharacter.h" "Server.h" "Print.h" "IPAddress.h" "wiring_digital.c" "Print.cpp" "Arduino.h" "WString.h" "Client.h" "Printable.h" "USBAPI.h" "main.cpp" "WInterrupts.c" "wiring_private.h" "CDC.cpp" "IPAddress.cpp" "Stream.cpp" "WMath.cpp" "USBDesc.h" "USBCore.cpp" "binary.h" "USBCore.h" "wiring_analog.c" "Stream.h" "HID.cpp" "WString.cpp")
+
+ ("/home/pi/.emacs.d/" (23393 23335 531230 199000) "./" "init.el" "eshell/" "../" "ede-projects.el" "ido.last" "url/" "ido.last~" "init.el~" "ac-comphist.dat" "auto-save-list/" "snippets/" "elpa/")
+
+ ("/home/pi/.emacs.d/elpa/" (23390 52946 610370 734000) "electric-spacing-5.0.signed" "./" "window-numbering-20160809.1110/" "go-mode-20180327.830/" "go-eldoc-readme.txt" "let-alist-1.0.5.signed" "electric-spacing-5.0/" "../" "gnupg/" "flymake-go-20150714.33/" "arduino-mode-readme.txt" "spinner-1.7.3/" "yasnippet-20180513.1004/" "c-eldoc-readme.txt" "pkg-info-20150517.443/" "auto-complete-20170124.1845/" "eldoc-eval-20180607.457/" "find-file-in-project-20180705.1832/" "go-autocomplete-readme.txt" "dash-20180413.30/" "seq-2.20.signed" "electric-spacing-readme.txt" "find-file-in-project-readme.txt" "xcscope-readme.txt" "archives/" "go-autocomplete-20170626.323/" "epl-20180205.1249/" "ivy-20180724.803/" "flycheck-20180720.247/" "c-eldoc-20170917.1502/" "popup-20160709.729/" "eldoc-eval-readme.txt" "let-alist-1.0.5/" "flycheck-readme.txt" "go-eldoc-20170305.627/" "xcscope-20180426.12/" "ace-jump-mode-20140616.115/" "undo-tree-0.6.5/" "seq-2.20/" "spinner-1.7.3.signed" "auto-highlight-symbol-20130313.243/" "undo-tree-0.6.5.signed" "arduino-mode-20180509.36/")
+
+ ("/home/" (23254 36419 257672 7000) "./" "../" "pi/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
