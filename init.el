@@ -103,7 +103,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (org-link-minor-mode highlight-parentheses projectile disable-mouse elpy highlight-symbol arduino-mode yasnippet xcscope window-numbering undo-tree go-eldoc go-autocomplete flymake-go flycheck find-file-in-project electric-spacing eldoc-eval c-eldoc auto-highlight-symbol ace-jump-mode))))
+    (magit org-link-minor-mode highlight-parentheses projectile disable-mouse elpy highlight-symbol arduino-mode yasnippet xcscope window-numbering undo-tree go-eldoc go-autocomplete flymake-go flycheck find-file-in-project electric-spacing eldoc-eval c-eldoc auto-highlight-symbol ace-jump-mode))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -132,3 +132,7 @@
     (highlight-parentheses-mode t)))
 (global-highlight-parentheses-mode t)
 
+(remove-hook 'elpy-modules 'elpy-module-flymake)
+(global-flycheck-mode)
+
+(global-set-key (kbd "C-x g") 'magit-status)
