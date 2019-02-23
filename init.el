@@ -71,7 +71,7 @@
 (global-set-key (kbd "C-x e")          'eshell)
 (global-set-key (kbd "C-c SPC")        'ace-jump-word-mode)
 (global-set-key (kbd "C-c j")          'godef-jump)
-(global-set-key (kbd "C-c f")          'find-file-in-project)
+(global-set-key (kbd "C-c f")          'find-name-dired)
 (global-set-key (kbd "C-c g")          'cscope-find-global-definition)
 (global-set-key (kbd "C-c v")          'vc-diff)
 (global-set-key (kbd "C-c r")          'rgrep)
