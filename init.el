@@ -132,3 +132,8 @@
 (global-flycheck-mode)
 
 (global-set-key (kbd "C-x g") 'magit-status)
+
+(prefer-coding-system 'utf-8)
+(set-default-coding-systems 'utf-8)
+(set-language-environment 'utf-8)
+(set-selection-coding-system 'utf-8)
