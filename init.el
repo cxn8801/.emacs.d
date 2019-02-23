@@ -119,7 +119,7 @@
 (if (eq system-type 'windows-nt)
     (setq ffip-find-executable "d:/cygwin64/bin/find"))
 
-(setq ffip-project-root "f:/linux/kernel")
+(setq ffip-project-root "f:/")
 
 (set-default 'truncate-lines t)
 
@@ -143,3 +143,5 @@
                         '("D:/cygwin64/bin/")))
 (setq grep-program "D:/cygwin64/bin/grep.exe")
 (setq find-program "D:/cygwin64/bin/find.exe")
+
+(ido-everywhere t)
