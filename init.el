@@ -74,6 +74,7 @@
 (global-set-key (kbd "C-c f")          'find-file-in-project)
 (global-set-key (kbd "C-c g")          'cscope-find-global-definition)
 (global-set-key (kbd "C-c v")          'vc-diff)
+(global-set-key (kbd "C-c r")          'rgrep)
 
 (setq default-tab-width 4)
 (setq-default indent-tabs-mode nil)
@@ -116,7 +117,7 @@
 (setq explicit-shell-file-name "/bin/bash")
 
 (if (eq system-type 'windows-nt)
-    (setq ffip-find-executable "d:\\\\cygwin64\\\\bin\\\\find"))
+    (setq ffip-find-executable "d:/cygwin64/bin/find"))
 
 (setq ffip-project-root "f:/linux/kernel")
 
@@ -137,3 +138,8 @@
 (set-default-coding-systems 'utf-8)
 (set-language-environment 'utf-8)
 (set-selection-coding-system 'utf-8)
+
+(setq exec-path (append exec-path
+                        '("D:/cygwin64/bin/")))
+(setq grep-program "D:/cygwin64/bin/grep.exe")
+(setq find-program "D:/cygwin64/bin/find.exe")
