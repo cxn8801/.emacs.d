@@ -1,5 +1,6 @@
-(package-initialize)
+(require 'package)
 
+(package-initialize)
 (setq package-archives '(("gnu"   . "http://elpa.emacs-china.org/gnu/")
                          ("melpa" . "http://elpa.emacs-china.org/melpa/")))
 
@@ -145,3 +146,37 @@
 (setq find-program "D:/cygwin64/bin/find.exe")
 
 (ido-everywhere t)
+
+;; (remove-hook 'elpy-modules 'elpy-module-flymake)
+;; (remove-hook 'elpy-modules 'elpy-module-eldoc)
+;; (remove-hook 'elpy-modules 'elpy-module-autodoc)
+;; (remove-hook 'elpy-modules 'elpy-module-django)
+;; (remove-hook 'elpy-modules 'elpy-module-company)
+
+;; (add-hook 'python-mode-hook 'jedi:setup)
+;; (setq jedi:complete-on-dot t) 
+
+;; (add-hook 'elpy-mode-hook
+;; (lambda ()
+;; (set (make-local-variable 'company-backends)
+;; '((company-dabbrev-code company-yasnippet elpy-company-backend)))))
+
+(setq frame-title-format
+      '("南无金刚不坏佛"))
+
+
+(defun org-toggle-iimage-in-org ()
+  "display images in your org file"
+  (interactive)
+  (if (face-underline-p 'org-link)
+      (set-face-underline-p 'org-link nil)
+      (set-face-underline-p 'org-link t))
+  (iimage-mode))
+
+(add-hook 'org-mode-hook 'iimage-mode)
+
+(setq default-directory "f:/test-code/")
+(cd "f:/test-code/")
+
+(setq inhibit-startup-message t)
+(load-theme 'material t) 

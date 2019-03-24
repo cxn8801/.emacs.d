@@ -2,12 +2,18 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("c:/Users/" . "Default User/")
+ ("c:/" . "Users/")
+ ("f:/test-code/images/" . "Ai/")
+ ("f:/test-code/facenet-master/src/" . "align/")
+ ("f:/test-code/facenet-master/" . "src/")
+ ("f:/test-code/" . "images/")
  ("c:/Users/Administrator/AppData/Roaming/" . ".emacs.d/")
  ("f:/tensorflow/2017/" . "examples/")
  ("f:/tensorflow/" . "2017/")
  ("f:/libevent/" . "WIN32-Code/")
  ("f:/linux/" . "kernel/")
- ("f:/" . "tensorflow/")
+ ("f:/" . "test-code/")
  ("/gdrive:pi@192.168.1.4/" . "pi/")
  ("e:/" . "script/")
  ("/home/pi/.emacs.d/" . "elpa/")
@@ -17,10 +23,16 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "c:/Users/Administrator/AppData/Roaming/.emacs.d/"
- "f:/"
- "f:/tensorflow/2017/examples/"
+ "f:/test-code/"
+ "d:/emacs-26.1-x86_64/bin/"
  "f:/jd/"
+ "f:/test-code/facenet-master/src/align/"
+ "f:/test-code/facenet-master/src/"
+ "f:/"
+ "/plink:pi@192.168.1.104:/home/pi/"
+ "f:/tensorflow/"
+ "c:/Users/Administrator/AppData/Roaming/.emacs.d/"
+ "f:/tensorflow/2017/examples/"
  "e:/"
  "e:/script/"
  "f:/linux/kernel/"
@@ -28,7 +40,6 @@
  "f:/libevent/"
  "f:/test.c/"
  "f:/linux/usr/"
- "/plink:pi@192.168.1.104:/home/pi/"
  "/gdrive:pi@"
  "c:/Users/Administrator/AppData/Roaming/"
  "e:/development/"
@@ -39,23 +50,41 @@
 
 ;; ----- ido-work-file-list -----
 (
- "README.md"
- "03_linear_regression_sol.py"
+ "show-image.org"
+ "1.png"
+ "test.jpg"
+ "web_catch.py"
+ "run.txt"
  "test.py"
- "test.org"
- "__utils.py"
- "tf.py"
- "notifier.c"
- "getopt.c"
- "win32select.c"
- "hello.c"
+ "align_dataset_mtcnn.py"
+ "detect_face.py"
+ "compare.py"
+ "face.py"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("c:/Users/Administrator/AppData/Roaming/" (23655 27606 0 0) "迅雷/" "快压/" "yxqxunyou/" "wps/" "WinRAR/" "vstelemetry/" "VMware/" "Visual Studio Setup/" "url_list.ini" "Tmon/" "thunderx/" "Tencent/" "systray/" "Synapse3/" "Softlink/" "SmartSteamEmu/" "QMProxyAccLsp.log" "QMProxyAccLogObserver.log" "QMLogEx/" "PCmgrFileRecovery/" "Opera Software/" "office6/" "NVIDIA/" "Notepad++/" "Mozilla/" "Microsoft Visual Studio/" "Microsoft/" "Maintenance/" "Macromedia/" "lockhomepage/" "Letasoft/" "LDSGameCenterSpecLog/" "lds/" "Lantern/" "KuGou8/" "KuaiZip/" "kingsoft/" "KGDataBak/" "JetBrains/" "Jedi/" "IsolatedStorage/" "IQIYI Video/" "Google/" "GlobalMgr.db" "EduAppInstall.exe" "channelbk.txt" "byteexec/" "bubble/" "Blizzard/" "BitTorrent/" "BitComet/" "BaiduYunKernel/" "BaiduYunGuanjia/" "baidu/" "Apowersoft/" "AndroidTbox/" "AliWangWang/" "Adobe/" "360se6/" "360Login/" "11Game/" ".history" ".emacs.d/" "../" "./")
+ ("c:/Users/Administrator/Desktop/" (23702 54510 0 0) "酷狗音乐.lnk" "迅雷.lnk" "离职证明.doc" "爱奇艺.lnk" "唧唧Down.lnk" "入职报到材料及体检须知-深圳1024.docx" "一键恢复系统.lnk" "Visual Studio 2017.lnk" "SoundBooster.exe.lnk" "runemacs.lnk" "putty.lnk" "Notepad++.lnk" "Lantern.lnk" "Kindle.lnk" "Git Bash.lnk" "find-file-in-project.txt" "desktop.ini" "Android Studio.lnk" "360安全浏览器.lnk" "1.png" "../" "./")
 
- ("c:/Users/Administrator/AppData/Roaming/.emacs.d/" (23655 32740 0 0) "url/" "tramp" "snippets/" "server/" "README.md" "projectile-bookmarks.eld" "init.el~" "init.el" "ido.last~" "ido.last" "eshell/" "elpa/" "ede-projects.el" "auto-save-list/" "ac-comphist.dat" ".git/" "../" "./")
+ ("c:/Users/Administrator/AppData/Roaming/.emacs.d/" (23702 54830 0 0) "url/" "transient/" "tramp" "snippets/" "server/" "README.md" "projectile-bookmarks.eld" "init.el" "ido.last~" "ido.last" "eshell/" "elpa/" "ede-projects.el" "auto-save-list/" "ac-comphist.dat" ".git/" "../" "./")
+
+ ("f:/test-code/" (23702 54369 0 0) "web_catch.py~" "web_catch.py" "test.jpg" "test,py" "show-image.org~" "show-image.org" "run.txt" "mouse_keboard_recorder.py" "img/" "images1/" "images/" "free_socket_client.py" "free_socket.c" "facenet-master.zip" "facenet-master/" "face.py" "download-youtube.py~" "download-youtube.py" "client.py" "all/" "1.png" ".git/" "#face.py#" "../" "./")
+
+ ("f:/test-code/images/Ai/" (23692 15785 0 0) "../" "./")
+
+ ("f:/test-code/images/" (23692 15786 0 0) "齐藤美优/" "黑羽美里/" "黑濑萌衣/" "黑木澪/" "麻美由真/" "麻生遥/" "麻生希/" "麻仓优/" "麻丘美优/" "鹰宫唯/" "鸣泽百合/" "鲇菜虹恋/" "鮎川柚姫/" "高西夏叶/" "高濑由奈/" "高濑杏/" "高桥圣子/" "高城彩/" "高城亚美菜/" "高千穗铃/" "高井露娜/" "香西咲/" "香纯唯/" "香椎梨亚/" "香乃圆/" "饭冈加奈子/" "飞鸟铃/" "风音舞香/" "风见步/" "音羽雷恩/" "青野圣罗/" "青山沙也加/" "青山华/" "雾岛樱/" "雫/" "雪白柑菜/" "雏菊翼/" "雏形久留美/" "雅沙也加/" "阿部乃美久/" "阳向纱耶香/" "长野未来/" "长谷川莫妮卡/" "长谷川留衣/" "长濑麻美/" "长泽梓/" "铃村爱里/" "铃木真夕/" "铃木心春/" "铃原爱蜜莉/" "野野宫杏/" "里美麻友/" "里美尤利娅/" "逢田美波/" "逢泽琉琉/" "逢坂春菜/" "逢坂优/" "速水赖利/" "通野未帆/" "迹美珠里/" "辻本杏/" "辉月杏梨/" "赤梨美来/" "赤根葵/" "赤井美月/" "谷田部和沙/" "谷原希美/" "观月奏/" "西野翔/" "西田卡莉娜/" "西条琉璃/" "西条沙罗/" "西川结衣/" "西宫梦/" "西宫好美/" "西原亚实/" "裕木麻友/" "藤野桃花/" "藤浦惠/" "藤川千夏/" "藤咲爱伦/" "藤原沙耶/" "藤井有彩/" "蕾/" "蓝沢润/" "蒂亚/" "葵玲奈/" "葵司/" "葵/" "菜菜叶/" "菅野纱世/" "菅野松雪/" "莲实克蕾儿/" "莎莉/" "莎拉/" "荻野舞/" "荣川乃亚/" "茜杏珠/" "茅原里恋/" "若菜奈央/" "若叶加奈/" "芽森滴/" "花咲一杏/" "花冈加菜/" "舞岛明里/" "舞咲美娜/" "翼/" "羽田璃子/" "羽田爱/" "羽生亚梨沙/" "羽咲美晴/" "美雪艾莉丝/" "美里有纱/" "美竹铃/" "美空杏/" "美玲/" "美月恋/" "美月乃爱/" "美月丽亚/" "美咲绫/" "美咲优/" "美和夏美/" "绫濑恋/" "绫波梦/" "绪川里绪/" "绪奈萌/" "绚森莓/" "绘色千佳/" "结菜绘麻/" "结希真琴/" "结城爱菜/" "织田真子/" "绀野光/" "纱纱原百合/" "纱凪美羽/" "纱仓真菜/" "篠田步美/" "篠宫千明/" "筱崎美绪/" "筱崎桃/" "筱崎悠/" "筒井真穗/" "笹本结爱/" "笹川里穗/" "笹仓杏/" "立花阳未/" "立花瑠莉/" "穗波雏子/" "穂高结花/" "秋月小町/" "秋山祥子/" "秋吉花音/" "秋叶茜/" "神雪/" "神谷瑠里/" "神纳花/" "神田流菜/" "神波多一花/" "神山奈奈/" "神咲诗织/" "石神里美/" "石田聪美/" "石原莉奈/" "石原妮可/" "真白爱梨/" "真白初音/" "真田美树/" "真木由香里/" "真城莉娜/" "相野美羽/" "相泽友梨奈/" "相泽南/" "相武咲罗/" "相川润/" "相原翼/" "皆川爱蕾娜/" "百木希/" "百合咲润美/" "白衣雪/" "白石铃/" "白石茉莉奈/" "白石真琴/" "白石堇/" "白石南/" "白木优子/" "白川麻衣/" "白川沙优/" "白咲柚子/" "由花爱菜/" "由爱可奈/" "瑠川莉娜/" "琴音梨亚/" "玉木成美/" "玉名美良/" "片平茜/" "爱须心亚/" "爱音麻里亚/" "爱沢花梨/" "爱沢有纱/" "爱咲绘奈/" "爱乃娜美/" "熊仓祥子/" "濑奈真绪/" "濑亚美莉/" "濑乃唯香/" "澄川鮎/" "潮崎美亚/" "清城雪/" "深田奈奈/" "涉谷果步/" "浜崎真绪/" "浅野惠美/" "浅田结梨/" "泽村玲子/" "泷泽萝拉/" "泷本梨绘/" "波多野结衣/" "泉乃乃花/" "河音胡桃/" "河野秋/" "河南实里/" "河北春菜/" "河井美香/" "池端真实/" "池井户惠美里/" "江藤唯/" "江上志保/" "永仓濑奈/" "水野朝阳/" "水野夏海/" "水野兰/" "水谷心音/" "水菜丽/" "水稀美里/" "水泽莉子/" "水泽乃乃/" "水无濑优夏/" "水川雏子/" "水岛津实/" "水原梨花/" "水元恵梨香/" "水上由纪惠/" "正妹/" "橘梨紗/" "橘优花/" "樱美雪/" "樱由罗/" "樱木凛/" "樱井绫音/" "樱井真帆/" "樱井步/" "樱井彩/" "横山美雪/" "槇原爱菜/" "榊梨梨亚/" "椿爱野/" "椎名空/" "椎名由奈/" "森野小鸟/" "森苺莉/" "森春流/" "森咲美知留/" "森下夕子/" "梨杏夏/" "梦夏真夏/" "梦乃爱华/" "梅田实/" "桥本有菜/" "桥本小百合/" "桥本凉/" "桥口里绪奈/" "桐谷茉莉/" "桐谷绚果/" "桐谷尤莉亚/" "桐嶋莉乃/" "桐岛美奈子/" "桃谷绘里香/" "桃濑友梨奈/" "桃园未来/" "桃乃木香奈/" "柴崎光/" "柳美优/" "柚木彩花/" "柚月向日葵/" "柚月亚衣/" "柏木葵/" "柊沙希/" "果濑春菜/" "林由奈/" "板野由花/" "松雪佳苗/" "松本菜奈实/" "松本芽依/" "松本奈奈惠/" "松坂美纪/" "松冈千菜/" "松下美织/" "松下纱荣子/" "村上里绪菜/" "朱音唯/" "本田莉子/" "本田岬/" "本庄优花/" "木南日菜/" "木下若菜/" "木下和津实/" "有贺由爱/" "有沢杏/" "有村千佳/" "月岛菜菜子/" "最上架纯/" "春菜花/" "春宫凉/" "春咲梓美/" "星野遥/" "星野明/" "星野娜美/" "星美梨香/" "星空绮罗里/" "星井笑/" "明里紬/" "明里知香/" "明日花绮罗/" "早乙女露依/" "早乙女美美/" "日比乃里美/" "日向瑠娜/" "日向爱理/" "日向曜/" "新道亚里沙/" "新月早苗/" "新川优衣/" "新山沙弥/" "新垣智江/" "新井梓/" "推川悠里/" "户田真琴/" "成田丽/" "成海翼/" "成海丽/" "成宫美琴/" "成宫晴明/" "成宫彩叶/" "悠月安夏/" "心花由罗/" "德永亚美/" "德岛绘里/" "彩音遥菜/" "彩音花音/" "彩美旬果/" "彩奈莉娜/" "彩奈翼/" "彩城优里菜/" "彩乃奈奈/" "广濑海/" "广濑奈奈美/" "幸田由真/" "并木塔子/" "并木优/" "希美真由/" "希志爱野/" "希志优希/" "希崎杰西卡/" "希岛爱理/" "希咲艾玛/" "希咲彩/" "市川雅美/" "川村真矢/" "川崎亚里沙/" "川上奈奈美/" "岸田步美/" "岛崎绫/" "岛崎结衣/" "山田彩夏/" "山手栞/" "尾上若叶/" "小野寺梨纱/" "小谷实/" "小西悠/" "小花真奈美/" "小瑠璃/" "小泽艾莉丝/" "小泉真希/" "小池里菜/" "小椋香织/" "小早川怜子/" "小川阿佐美/" "小川桃果/" "小岛南/" "小岛亚美/" "小仓柚子/" "宫藤尚美/" "宫益琴叶/" "宫崎彩/" "宫地蓝/" "宫下华奈/" "安野由美/" "安部未华子/" "安城安娜/" "宇都宫紫苑/" "宇多田美香/" "宇垣千智/" "宇佐美舞/" "姬川优奈/" "姫野心爱/" "妃月留衣/" "奥菜莉乃/" "奥田咲/" "奏自由/" "天音亚莉西/" "天野美优/" "天衣萌香/" "天海翼/" "天使萌/" "大石香织/" "大槻响/" "大桥未久/" "大岛美绪/" "大岛优香/" "大场由衣/" "大原铃/" "大仓美优/" "大井结仁/" "夏目明/" "夏目彩春/" "夏希南/" "夏希/" "夏川美铃/" "夏川明/" "塔堂茉莉绘/" "堺希美/" "堀咲莉亚/" "堀北樱/" "城崎桐子/" "坂本堇/" "坂口美穗乃/" "坂口玲奈/" "坂口杏里/" "坂井里美/" "园田美樱/" "唯川希/" "咲坂花恋/" "咲乃柑菜/" "周防雪子/" "吹石玲奈/" "君野奈津/" "君色花音/" "君户步实/" "君川结衣/" "向井蓝/" "吉泽明步/" "吉泽友贵/" "吉川爱美/" "叶山瞳/" "古川伊织/" "友田彩也香/" "卯水咲流/" "南麻友/" "南真菜果/" "南梨央奈/" "千野久留美/" "千早希/" "千叶宁宁/" "千乃杏美/" "北野望/" "北见佳奈美/" "北川绘里香/" "北川柚子/" "北川杏树/" "加藤莉娜/" "加藤绘麻/" "加藤穗花/" "加濑佳奈子/" "前田香织/" "前园希美/" "初音实/" "初野心/" "初美理音/" "初美沙希/" "初川南/" "凤香奈芽/" "凑莉久/" "凉海美沙/" "凉川绚音/" "凉宫音/" "凉宫凉/" "冲田杏梨/" "冬月枫/" "冢田诗织/" "冈沢莉娜/" "八神沙织/" "八桥彩子/" "光井光/" "元山晴香/" "佳苗瑠华/" "佐野葵/" "佐藤遥希/" "佐藤爱理/" "佐山爱/" "佐佐波绫/" "佐佐木艾丽/" "佐佐木明希/" "佐仓绊/" "佐仓宁宁/" "伊东红/" "伊东真绪/" "伊东千奈美/" "仓多真央/" "今永纱奈/" "今宫泉/" "今井美铃/" "今井真由美/" "仁科百华/" "京香julia/" "亚须希/" "井上瞳/" "五十岚小悠希/" "云雀乃爱/" "二阶堂爱/" "二宫沙树/" "二宫和香/" "九重环奈/" "九条沙也加/" "乃南静香/" "乃乃果花/" "中村知恵/" "中村推菜/" "中山艾莉丝/" "东凛/" "丘咲爱米莉/" "上野莉奈/" "上园由里香/" "上原瑞穂/" "上原亚衣/" "三浦惠理子/" "三岛奈津子/" "三原穗花/" "三井沙希/" "三上悠亚/" "一色里樱/" "一色桃子/" "一条莉音/" "一之濑遥(波木遥)/" "一之濑桃/" "一世亚美/" "Rio(柚木提娜)/" "NAOMI/" "Leroy Clala/" "KAORI/" "AIKA/" "Ai/" "../" "./")
+
+ ("f:/test-code/facenet-master/src/align/" (23687 47436 0 0) "__pycache__/" "__init__.py" "detect_face.py" "det3.npy" "det2.npy" "det1.npy" "align_dataset_mtcnn.py~" "align_dataset_mtcnn.py" "../" "./")
+
+ ("f:/test-code/facenet-master/src/" (23686 33881 0 0) "__pycache__/" "__init__.py" "validate_on_lfw.py" "train_tripletloss.py" "train_softmax.py" "run.txt" "models/" "lfw.py" "generative/" "freeze_graph.py" "facenet.py" "download_and_extract.py" "decode_msceleb_dataset.py" "compare.py" "classifier.py" "calculate_filtering_metrics.py" "align/" "2.jpg" "1.jpg" "../" "./")
+
+ ("f:/test-code/facenet-master/" (23252 56859 0 0) "__init__.py" "util/" "tmp/" "test/" "src/" "requirements.txt" "README.md" "LICENSE.md" "data/" "contributed/" ".travis.yml" ".pylintrc" ".pydevproject" ".project" ".gitignore" "../" "./")
+
+ ("e:/face-recognition-opencv/" (23572 32373 0 0) "face-recognition-opencv/" "../" "./")
+
+ ("f:/jd/" (23664 45243 0 0) "__utils.py" "test.rar" "test.py~" "test.py" "qichacha.py" "../" "./")
+
+ ("c:/Users/Administrator/AppData/Roaming/" (23655 27606 0 0) "迅雷/" "快压/" "yxqxunyou/" "wps/" "WinRAR/" "vstelemetry/" "VMware/" "Visual Studio Setup/" "url_list.ini" "Tmon/" "thunderx/" "Tencent/" "systray/" "Synapse3/" "Softlink/" "SmartSteamEmu/" "QMProxyAccLsp.log" "QMProxyAccLogObserver.log" "QMLogEx/" "PCmgrFileRecovery/" "Opera Software/" "office6/" "NVIDIA/" "Notepad++/" "Mozilla/" "Microsoft Visual Studio/" "Microsoft/" "Maintenance/" "Macromedia/" "lockhomepage/" "Letasoft/" "LDSGameCenterSpecLog/" "lds/" "Lantern/" "KuGou8/" "KuaiZip/" "kingsoft/" "KGDataBak/" "JetBrains/" "Jedi/" "IsolatedStorage/" "IQIYI Video/" "Google/" "GlobalMgr.db" "EduAppInstall.exe" "channelbk.txt" "byteexec/" "bubble/" "Blizzard/" "BitTorrent/" "BitComet/" "BaiduYunKernel/" "BaiduYunGuanjia/" "baidu/" "Apowersoft/" "AndroidTbox/" "AliWangWang/" "Adobe/" "360se6/" "360Login/" "11Game/" ".history" ".emacs.d/" "../" "./")
 
  ("f:/tensorflow/2017/examples/" (23655 22787 0 0) "__pycache__/" "utils.py" "process_data.py" "kernels.py" "graphs/" "deepdream/" "data/" "cgru/" "autoencoder/" "11_char_rnn_gist.py" "09_tfrecord_example.py" "09_queue_example.py" "07_convnet_mnist_starter.py" "07_convnet_mnist.py" "07_basic_filters.py" "05_randomization.py" "05_csv_reader.py" "04_word2vec_visualize.py" "04_word2vec_starter.py" "04_word2vec_no_frills.py" "03_logistic_regression_mnist_starter.py" "03_logistic_regression_mnist_sol.py" "03_linear_regression_starter.py" "03_linear_regression_sol.py~" "03_linear_regression_sol.py" "02_variables.py" "02_simple_tf.py" "02_lazy_loading.py" "02_feed_dict.py" "#03_linear_regression_sol.py#" "../" "./")
 
@@ -66,8 +95,6 @@
  ("f:/tensorflow/examples/" (23655 21327 0 0) "__pycache__/" "word2vec_utils.py" "utils.py" "kernels.py" "graphs/" "data/" "11_char_rnn.py" "07_run_kernels.py" "07_convnet_mnist_starter.py" "07_convnet_mnist.py" "07_convnet_layers.py" "05_variable_sharing.py" "05_randomization.py" "04_word2vec_visualize.py" "04_word2vec_eager_starter.py" "04_word2vec_eager.py" "04_word2vec.py" "04_linreg_eager_starter.py" "04_linreg_eager.py" "03_logreg_starter.py" "03_logreg_placeholder.py" "03_logreg.py" "03_linreg_starter.py" "03_linreg_placeholder.py" "03_linreg_dataset.py~" "03_linreg_dataset.py" "02_variables.py" "02_simple_tf.py" "02_placeholder.py" "02_lazy_loading.py" "../" "./")
 
  ("f:/data/" (23655 20188 0 0) "stanford-tensorflow-tutorials-master.zip" "stanford-tensorflow-tutorials-master/" "fire_theft.xls" "../" "./")
-
- ("f:/jd/" (23619 4050 0 0) "__utils.py" "test.rar" "test.py~" "test.py" "qichacha.py" "../" "./")
 
  ("c:/Users/Administrator/" (23583 40889 0 0) "「开始」菜单/" "Videos/" "Templates/" "source/" "skb.kc" "SendTo/" "Searches/" "Saved Games/" "Recent/" "PycharmProjects/" "PrintHood/" "Pictures/" "OneDrive/" "ntuser.ini" "NTUSER.DAT{0b9eac25-ab5a-11e8-82a3-bf1a01a02cce}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{0b9eac25-ab5a-11e8-82a3-bf1a01a02cce}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{0b9eac25-ab5a-11e8-82a3-bf1a01a02cce}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "MicrosoftEdgeBackups/" "Local Settings/" "Links/" "IntelGraphicsProfiles/" "go/" "Favorites/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Application Data/" "AppData/" "3D Objects/" ".VirtualBox/" ".PyCharmCE2018.2/" ".openshot_qt/" ".minttyrc" ".matplotlib/" ".keras/" ".Icecream Screen Recorder/" ".dotnet/" ".bash_history" ".android/" "../" "./")
 
