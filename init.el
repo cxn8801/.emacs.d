@@ -40,7 +40,7 @@
 ;;            (font-spec :family "Microsoft Yahei" :size 16)))
 
 
-(ido-mode t)
+;; (ido-mode t)
 (global-auto-complete-mode t)
 (yas-global-mode t)
 
@@ -53,20 +53,20 @@
 (elpy-enable)
 (setq elpy-rpc-timeout nil)
 
-(global-set-key
- "\M-x"
- (lambda ()
-   (interactive)
-   (call-interactively
-    (intern
-     (ido-completing-read
-      "M-x "
-      (all-completions "" obarray 'commandp))))))
+;; (global-set-key
+;;  "\M-x"
+;;  (lambda ()
+;;    (interactive)
+;;    (call-interactively
+;;     (intern
+;;      (ido-completing-read
+;;       "M-x "
+;;       (all-completions "" obarray 'commandp))))))
 
 (require 'xcscope)
 
 (global-set-key (kbd "M-SPC")          'set-mark-command) 
-(global-set-key (kbd "C-c l")          'ido-switch-buffer)
+;; (global-set-key (kbd "C-c l")          'ido-switch-buffer)
 (global-set-key (kbd "C-c c")          'comment-region)
 (global-set-key (kbd "C-c u")          'uncomment-region)
 (global-set-key (kbd "C-x e")          'eshell)
@@ -76,6 +76,11 @@
 (global-set-key (kbd "C-c g")          'cscope-find-global-definition)
 (global-set-key (kbd "C-c v")          'vc-diff)
 (global-set-key (kbd "C-c r")          'rgrep)
+(global-set-key (kbd "C-c b")          'helm-filtered-bookmarks)
+(global-set-key (kbd "C-x C-f")        'helm-find-files)  
+(global-set-key (kbd "C-c l")          'helm-buffers-list)
+(global-set-key (kbd "M-x")            'helm-M-x)         
+
 
 (setq default-tab-width 4)
 ;; (setq-default indent-tabs-mode nil)
@@ -106,7 +111,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (exec-path-from-shell jedi magit org-link-minor-mode highlight-parentheses projectile disable-mouse elpy highlight-symbol arduino-mode yasnippet xcscope window-numbering undo-tree go-eldoc go-autocomplete flymake-go flycheck find-file-in-project electric-spacing eldoc-eval c-eldoc auto-highlight-symbol ace-jump-mode))))
+    (helm exec-path-from-shell jedi magit org-link-minor-mode highlight-parentheses projectile disable-mouse elpy highlight-symbol arduino-mode yasnippet xcscope window-numbering undo-tree go-eldoc go-autocomplete flymake-go flycheck find-file-in-project electric-spacing eldoc-eval c-eldoc auto-highlight-symbol ace-jump-mode))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -145,7 +150,7 @@
 ;; (setq grep-program "D:/cygwin64/bin/grep.exe")
 ;; (setq find-program "D:/cygwin64/bin/find.exe")
 
-(ido-everywhere t)
+;; (ido-everywhere t)
 
 ;; (remove-hook 'elpy-modules 'elpy-module-flymake)
 ;; (remove-hook 'elpy-modules 'elpy-module-eldoc)

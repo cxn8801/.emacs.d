@@ -64,7 +64,7 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/pi/" (24276 36867 719909 237000) "test2.py" ".viminfo" "MagPi/" ".bash_logout" "./" ".local/" ".test.py.swp" ".bashrc" "#test2.py#" "bluez-5.43/" "pybluez/" ".bash_history" "bluez-5.43.tar.xz" ".gnupg/" ".emacs.d/" ".python_history" "test2.py~" ".cache/" "../" "gattlib-0.20200122/" "gattlib-0.20200122.tar.gz" "test.py" ".profile")
+ ("/home/pi/" (24276 36987 318238 888000) "test2.py" ".viminfo" "MagPi/" ".bash_logout" "./" ".local/" ".test.py.swp" ".bashrc" "#test2.py#" "bluez-5.43/" "pybluez/" ".bash_history" "bluez-5.43.tar.xz" ".gnupg/" ".emacs.d/" ".python_history" "test2.py~" ".cache/" "../" "gattlib-0.20200122/" "gattlib-0.20200122.tar.gz" "test.py" ".profile")
 
  ("/home/pi/.emacs.d/" (24276 36946 799223 194000) "./" "ido.last~" "url/" "ede-projects.el" ".git/" "tramp" "ido.last" "projectile-bookmarks.eld" "init.el~" "../" "eshell/" "elpa/" "init.el" "ac-comphist.dat" "snippets/" "README.md" ".python-environments/" "auto-save-list/")
 

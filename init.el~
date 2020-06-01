@@ -106,7 +106,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (exec-path-from-shell jedi magit org-link-minor-mode highlight-parentheses projectile disable-mouse elpy highlight-symbol arduino-mode yasnippet xcscope window-numbering undo-tree go-eldoc go-autocomplete flymake-go flycheck find-file-in-project electric-spacing eldoc-eval c-eldoc auto-highlight-symbol ace-jump-mode))))
+    (helm exec-path-from-shell jedi magit org-link-minor-mode highlight-parentheses projectile disable-mouse elpy highlight-symbol arduino-mode yasnippet xcscope window-numbering undo-tree go-eldoc go-autocomplete flymake-go flycheck find-file-in-project electric-spacing eldoc-eval c-eldoc auto-highlight-symbol ace-jump-mode))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -181,13 +181,27 @@
 (setq inhibit-startup-message t)
 (load-theme 'material t) 
 
-(setq py-python-command "python3")
+(setq py-python-command "/usr/bin/python3")
+;; (setq py-python-command "python3")
 (setq python-shell-interpreter "python3")
+(setq python-shell-interpreter-args "-m IPython --simple-prompt -i")
+(setq flycheck-python-pycompile-executable "python3")
 
 
+;; (setq jedi:server-command
+;;             (list "/usr/bin/pythoin3" jedi:server-script))
+
+;; (setq jedi:environment-root "jedi")  ; or any other name you like
+;; (setq jedi:environment-virtualenv
+;;       (append python-environment-virtualenv
+;; 	      '("--python" "/usr/bin/python3")))
+
+;; (setq jedi:environment-virtualenv
+;;             (list "virtualenv3" "--system-site-packages"))
+
+(require 'jedi)
 (add-hook 'python-mode-hook 'jedi:setup)
 (setq jedi:complete-on-dot t)
 
-;; Used by virtualenvwrapper.el
-(setq venv-location (expand-file-name "~/.envs"))   ;; Change with the path to your virtualenvs
-;; Used python-environment.el and by extend jedi.el
+;; (setq venv-location (expand-file-name "~/.envs"))
+;; (exec-path-from-shell-copy-env "/usr/bin/python3")
