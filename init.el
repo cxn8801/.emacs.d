@@ -82,10 +82,10 @@
 (global-set-key (kbd "M-x")            'helm-M-x)         
 
 
-(setq default-tab-width 4)
+(setq default-tab-width 2)
 ;; (setq-default indent-tabs-mode nil)
 (setq c-default-style "linux"
-      c-basic-offset 4)
+      c-basic-offset 2)
 
 (add-hook 'go-mode-hook 'go-eldoc-setup)
 (add-hook 'go-mode-hook '(lambda ()
@@ -210,3 +210,16 @@
 
 ;; (setq venv-location (expand-file-name "~/.envs"))
 ;; (exec-path-from-shell-copy-env "/usr/bin/python3")
+
+
+(defun create-shell()
+  (interactive)
+  (eshell)
+  (rename-buffer "shell-1")
+   (split-window-right)
+  (eshell)
+  (rename-buffer "shell-2")
+   (split-window-below)
+  (eshell)
+  (rename-buffer "shell-3")
+ (create-shell)
